@@ -1,0 +1,32 @@
+Kate McCarthy - CSCI 4229
+Final Project Review
+3D Platformer Speed Runner Game: See how quickly you can navigate the course!
+
+Run with make and ./final 
+
+- Fully textured/detailed world in a cartoonish style complimenting the cartoon panda style
+- Nearly all textures are created by hand in Adobe Photoshop to preserve the same cartoony feel. 
+- Multiple light sources that are changing location and amount to create a varying light source. Since the scene is set at sunset, meant to give the illusion of changing colors and brightness of light. 
+- Movement abilities: Panda not only can walk through the space, but also jump and land on platforms and navigate the course. 
+- The jump has conditionals, allowing the panda to both land and fall off platforms 
+- Walk cycle: Panda has an animated walk cycle that starts and stops when walking/stopped.
+- Timer with minute and seconds elapsed
+- There are two view modes: A user camera-control where the panda moves in relation to the current view and an overhead view where the panda only moves in cardinal directions. 
+
+
+Key bindings:
+W: Move away from camera (-z in overhead)
+S: Move towards camera (+z in overhead)
+D: Move to right of camera (+x in overhead)
+A: Move to the left of camera (-x in overhead) 
+J = jump
+Arrow keys: rotate view
+
+R = Reset panda position and view. 
+M = View mode from third person to first person
+
+O = change object  //Used for grading purposes just to get a better view of the walk cycle since it is small in the actual product
+(In panda mode, use W/A/S/D to make the panda walk.) 
+ 
+
+
